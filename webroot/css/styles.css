@@ -1,0 +1,213 @@
+@charset "utf-8";
+/* CSS Document */
+.clearfx:before,.clearfx:after {
+  display:table;
+  content:"";
+}
+.clearfx:after {
+  clear:both;
+}
+.page-wrapper {
+    background: #e4ebe9 url(../images/blueprint_background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.top-bar {
+    background: #282828;
+}
+.top-bar ul {
+    background: #282828;
+}
+.top-bar ul li > a {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.top-bar ul li > a:hover, .top-bar ul li:hover {
+    background: #777777;
+}
+h3 {
+    font-family: Oswald;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    margin: 5px 0;
+    padding: 0;
+    z-index: 1;
+    position: relative;
+}
+.slide-content {
+    margin: 0 auto;
+    width: 75%;
+}
+.slide-text {
+    font-weigth: normal;
+    font-size: 30px;
+    text-align: justify;
+    margin: 25px auto;
+}
+.slide-text-container {
+    width: 75%;
+    margin: 0 auto;
+}
+#slide1, #slide2 {
+    width: 100%;
+}
+#slide1 {
+    background: url(../images/house_1.jpg) 50% 0 no-repeat fixed;
+    color: #fff;
+    height: 800px;
+    margin: 0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+}
+#slide2 {
+    background-color: #fff;
+    color: #333333;
+    height: 600px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+#slide3 {
+    background: url(../images/house_6.jpg) 50% 0 no-repeat fixed;
+    color: #fff;
+    height: 800px;
+    margin: 0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+}
+#slide4 {
+    background-color: #fff;
+    color: #333333;
+    heigth: 600px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+#slide5 {
+    background: url(../images/house_5.jpg) 50% 0 no-repeat fixed;
+    color: #fff;
+    height: 800px;
+    margin: 0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+}
+#slide6 {
+    background: #fff;
+    color: #333333;
+    height: 600px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+#slide7 {
+    background: url(../images/house_7.jpg) 50% 0 no-repeat fixed;
+    color: #fff;
+    height: 800px;
+    margin: 0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+}
+#slide8 {
+    background: #fff;
+    color: #333333;
+    height: 500px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+#slide9 {
+    background: url(../images/house_8.jpg) 50% 0 no-repeat fixed;
+    color: #fff;
+    height: 800px;
+    margin: 0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+}
+#slide10 {
+    background: #fff;
+    color: #333333;
+    height: 600px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+#slide11 {
+    background: url(../images/house_9.jpg) 50% 0 no-repeat fixed;
+    color: #fff;
+    height: 600px;
+    margin: 0 auto;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+}
+#slide12 {
+    background: #fff;
+    color: #333333;
+    height: 600px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.header {
+	background: #F7F7F8;
+        /*background: #e4ebe9 url(../images/blueprint_background.jpg) no-repeat center center fixed;
+        //-webkit-background-size: cover;
+        //-moz-background-size: cover;
+        //-o-background-size: cover;*/
+	color: #444444;
+	overflow: auto;
+	border-radius-bottom: 5px;
+	/*border: 1px solid rgba(0, 0, 0, 0.2);*/
+	background-image: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+	/*box-shadow: rgba(0,0,0,0.5) 1px 1px 8px;*/
+	width: 100%;
+        height: 158px;
+	margin: 0 auto;
+        transition: height .25s ease;
+}
+.header.shrink {
+    height: 132px;
+}
+.header-bounds {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.header img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+.footer {
+    background: #fff;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    z-index: 4;
+}
+.footer-text-right {
+    font-weigth: normal;
+    font-size: 30px;
+    text-align: right;
+}
+.footer-text-center {
+    font-weigth: normal;
+    font-size: 30px;
+    text-align: center;
+}
+.footer-text-center a {
+    text-decoration: none;
+    cursor: default;
+}
+.footer-text-center a:hover {
+    color: #1779ba
+}
+.footer-text-left {
+    font-weigth: normal;
+    font-size: 30px;
+    text-align: left;
+}
+.footer-wrapper {
+    
+}
